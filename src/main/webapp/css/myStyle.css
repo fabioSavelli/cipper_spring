@@ -1,0 +1,79 @@
+#scrollBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 70px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 180px; /* Rounded corners */
+    opacity: 0.5;
+}
+
+#scrollBtn:hover {
+    background-color: #432B68; /* Add a dark-grey background on hover */
+    opacity: 1;
+}
+
+.btn-outline-viola{
+	border-color: #432B68;
+	color: #432B68;
+}
+
+.btn-outline-viola:hover{
+	background: #432B68;
+	color: #ffffff;	
+}
+
+.btn-viola{
+	background: #533B78;
+	color: #ffffff;	
+}
+
+.btn-viola:hover{
+	background: #735B98;
+	color: #ffffff;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 28.5pc;
+  margin-left: 1pc;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9; 
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: #e5e5e5 !important;
+}

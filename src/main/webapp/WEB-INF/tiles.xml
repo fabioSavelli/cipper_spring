@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+   "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+   "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="app.login" template="/WEB-INF/template/baseLayout.jsp">
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="header" value="/WEB-INF/template/navbarLogin.jsp" />
+		<put-attribute name="body" value="/WEB-INF/template/body.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/template/blank.jsp" />
+	</definition>
+	
+	<definition name="app.homepage" template="/WEB-INF/template/baseLayout.jsp">
+		<put-attribute name="title" value="Homepage" />
+		<put-attribute name="header" value="/WEB-INF/template/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/homepage.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/template/footer.jsp" />
+	</definition>
+	
+	<definition name="app.profilo" template="/WEB-INF/template/baseLayout.jsp">
+		<put-attribute name="title" value="Profilo" />
+		<put-attribute name="header" value="/WEB-INF/template/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/profilo.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/template/footer.jsp" />
+	</definition>
+	
+	<definition name="app.profiloAltri" template="/WEB-INF/template/baseLayout.jsp">
+		<put-attribute name="title" value="Profilo" />
+		<put-attribute name="header" value="/WEB-INF/template/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/profiloAltri.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/template/footer.jsp" />
+	</definition>
+	
+	<definition name="app.follower" template="/WEB-INF/template/baseLayout.jsp">
+		<put-attribute name="title" value="Follower" />
+		<put-attribute name="header" value="/WEB-INF/template/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/follower.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/template/footer.jsp" />
+	</definition>
+	
+	<definition name="app.modificaAccount" template="/WEB-INF/template/baseLayout.jsp">
+		<put-attribute name="title" value="Modifica Profilo" />
+		<put-attribute name="header" value="/WEB-INF/template/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/modificaAccount.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/template/footer.jsp" />
+	</definition>
+
+</tiles-definitions>
